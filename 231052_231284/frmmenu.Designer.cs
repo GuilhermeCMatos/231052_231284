@@ -1,4 +1,4 @@
-﻿namespace _231052_231284
+﻿namespace vendas
 {
     partial class FrmMenu
     {
@@ -39,16 +39,17 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // frmmenu
+            // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmmenu";
+            this.Name = "FrmMenu";
             this.Text = "Menu do Sistema";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

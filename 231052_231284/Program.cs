@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _231052_231284.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace _231052_231284
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMenu());
+            Application.Run(new FrmMarcas());
         }
     }
 }

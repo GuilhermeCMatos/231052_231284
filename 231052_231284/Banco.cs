@@ -2,6 +2,7 @@
 using System.Data;
 using System.Linq.Expressions;
 using System.Windows.Forms;
+using MySql.Data;
 using MySql.Data.MySqlClient;
 
 namespace _231052_231284
@@ -55,14 +56,36 @@ namespace _231052_231284
                 AbrirConexao();
 
                 //Informa a instrução SQL
-                Comando = new MySqlCommand("CREAT DATABASE IF NOT EXISTS vendas; USE vendas", Conexao);
+                Comando = new MySqlCommand("CREATE DATABASE IF NOT EXISTS vendas; USE vendas", Conexao);
                 // Executa a Query no MySQL (Raio de Workbanch)
                 Comando.ExecuteNonQuery();
 
-                Comando = new MySqlCommand("Create TABLE IF NOT EXISTS cidades " +
+                Comando = new MySqlCommand("Create TABLE IF NOT EXISTS Cidades " +
                                            "(id integer auto_increment primary key, " +
                                            "nome char(40)," +
                                            "uf char(02))", Conexao);
+                Comando.ExecuteNonQuery();
+
+                Comando = new MySqlCommand("Create TABLE IF NOT EXISTS Marcas " +
+                                           "(id integer auto_increment primary key, " +
+                                           "marca char(20))", Conexao);
+                Comando.ExecuteNonQuery();
+
+                Comando = new MySqlCommand("Create TABLE IF NOT EXISTS Categorias " +
+                                           "(id integer auto_increment primary key, " +
+                                           "categoria char(20))", Conexao);
+                Comando.ExecuteNonQuery();
+
+                Comando = new MySqlCommand("Create TABLE IF NOT EXISTS Clientes " +
+                                           "(Id integer auto_increment primary key, " +
+                                           "Nome char(20)), " +
+                                           "idCidade integer, " +
+                                           "dataNasc date, " +
+                                           "renda decimal(10,2), " +
+                                           "cpf char(14), " +
+                                           "foto varchar(100), " +
+                                           "venda boolean)" , Conexao);
+
                 Comando.ExecuteNonQuery();
 
                 // Chama a função para fechar a conexão com o banco

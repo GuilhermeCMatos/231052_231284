@@ -82,6 +82,7 @@
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.Size = new System.Drawing.Size(764, 150);
             this.dgvClientes.TabIndex = 3;
+            this.dgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvClientes_CellClick);
             // 
             // btnIncluir
             // 
@@ -89,7 +90,7 @@
             this.btnIncluir.Name = "btnIncluir";
             this.btnIncluir.Size = new System.Drawing.Size(109, 60);
             this.btnIncluir.TabIndex = 4;
-            this.btnIncluir.Text = "button1";
+            this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
             this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
@@ -219,8 +220,9 @@
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(109, 60);
             this.btnAlterar.TabIndex = 19;
-            this.btnAlterar.Text = "button2";
+            this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnCancelar
             // 
@@ -228,8 +230,9 @@
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(109, 60);
             this.btnCancelar.TabIndex = 20;
-            this.btnCancelar.Text = "button3";
+            this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnExcluir
             // 
@@ -237,8 +240,9 @@
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(109, 60);
             this.btnExcluir.TabIndex = 21;
-            this.btnExcluir.Text = "button4";
+            this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnFechar
             // 
@@ -246,8 +250,9 @@
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(109, 60);
             this.btnFechar.TabIndex = 22;
-            this.btnFechar.Text = "button5";
+            this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnConsultar
             // 
@@ -255,8 +260,9 @@
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(91, 60);
             this.btnConsultar.TabIndex = 23;
-            this.btnConsultar.Text = "button6";
+            this.btnConsultar.Text = "PESQUISA";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // txtPesquisa
             // 

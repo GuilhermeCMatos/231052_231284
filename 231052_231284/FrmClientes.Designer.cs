@@ -86,11 +86,11 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Location = new System.Drawing.Point(141, 299);
+            this.btnIncluir.Image = global::_231052_231284.Properties.Resources.incluir1;
+            this.btnIncluir.Location = new System.Drawing.Point(231, 299);
             this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(109, 60);
+            this.btnIncluir.Size = new System.Drawing.Size(81, 80);
             this.btnIncluir.TabIndex = 4;
-            this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
             this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
@@ -216,51 +216,51 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(256, 299);
+            this.btnAlterar.Image = global::_231052_231284.Properties.Resources.alterar2;
+            this.btnAlterar.Location = new System.Drawing.Point(80, 299);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(109, 60);
+            this.btnAlterar.Size = new System.Drawing.Size(82, 80);
             this.btnAlterar.TabIndex = 19;
-            this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(371, 299);
+            this.btnCancelar.Image = global::_231052_231284.Properties.Resources.voltar;
+            this.btnCancelar.Location = new System.Drawing.Point(380, 299);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(109, 60);
+            this.btnCancelar.Size = new System.Drawing.Size(81, 80);
             this.btnCancelar.TabIndex = 20;
-            this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(486, 299);
+            this.btnExcluir.Image = global::_231052_231284.Properties.Resources.lixo;
+            this.btnExcluir.Location = new System.Drawing.Point(529, 299);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(109, 60);
+            this.btnExcluir.Size = new System.Drawing.Size(81, 80);
             this.btnExcluir.TabIndex = 21;
-            this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(601, 299);
+            this.btnFechar.Image = global::_231052_231284.Properties.Resources.bandeira;
+            this.btnFechar.Location = new System.Drawing.Point(685, 299);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(109, 60);
+            this.btnFechar.Size = new System.Drawing.Size(81, 80);
             this.btnFechar.TabIndex = 22;
-            this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnConsultar
             // 
+            this.btnConsultar.Image = global::_231052_231284.Properties.Resources.lupa__1_;
             this.btnConsultar.Location = new System.Drawing.Point(735, 383);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(91, 60);
             this.btnConsultar.TabIndex = 23;
-            this.btnConsultar.Text = "PESQUISA";
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 

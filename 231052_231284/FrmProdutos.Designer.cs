@@ -72,47 +72,48 @@
             // 
             // btnConsultar
             // 
+            this.btnConsultar.Image = global::_231052_231284.Properties.Resources.lupa__1_;
             this.btnConsultar.Location = new System.Drawing.Point(741, 387);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(91, 60);
             this.btnConsultar.TabIndex = 48;
-            this.btnConsultar.Text = "PESQUISA";
             this.btnConsultar.UseVisualStyleBackColor = true;
             // 
             // btnFechar
             // 
-            this.btnFechar.Location = new System.Drawing.Point(607, 303);
+            this.btnFechar.Image = global::_231052_231284.Properties.Resources.bandeira;
+            this.btnFechar.Location = new System.Drawing.Point(604, 303);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(109, 60);
+            this.btnFechar.Size = new System.Drawing.Size(95, 73);
             this.btnFechar.TabIndex = 47;
-            this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(492, 303);
+            this.btnExcluir.Image = global::_231052_231284.Properties.Resources.lixo;
+            this.btnExcluir.Location = new System.Drawing.Point(491, 303);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(109, 60);
+            this.btnExcluir.Size = new System.Drawing.Size(95, 73);
             this.btnExcluir.TabIndex = 46;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(377, 303);
+            this.btnCancelar.Image = global::_231052_231284.Properties.Resources.voltar;
+            this.btnCancelar.Location = new System.Drawing.Point(378, 303);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(109, 60);
+            this.btnCancelar.Size = new System.Drawing.Size(95, 73);
             this.btnCancelar.TabIndex = 45;
-            this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(262, 303);
+            this.btnAlterar.Image = global::_231052_231284.Properties.Resources.alterar__1_;
+            this.btnAlterar.Location = new System.Drawing.Point(264, 303);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(109, 60);
+            this.btnAlterar.Size = new System.Drawing.Size(95, 73);
             this.btnAlterar.TabIndex = 44;
-            this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
             // 
             // txtRenda
@@ -215,11 +216,11 @@
             // 
             // btnIncluir
             // 
+            this.btnIncluir.Image = global::_231052_231284.Properties.Resources.incluir1;
             this.btnIncluir.Location = new System.Drawing.Point(147, 303);
             this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(109, 60);
+            this.btnIncluir.Size = new System.Drawing.Size(95, 73);
             this.btnIncluir.TabIndex = 30;
-            this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
             // 
             // picFoto
